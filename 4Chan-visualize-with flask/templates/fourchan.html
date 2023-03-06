@@ -1,0 +1,99 @@
+<!-- <html>
+    <h1>4Chan Analysis</h1>
+    <p> Visited at {{ date }} </p>
+    <button type="button" onclick="window.location.href = 'response'">Democrats</button>
+    <button type="button" onclick="window.location.href = 'response'">Republics</button>
+</html> -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+ <style>
+     .myHeading
+        {
+            width: 100%;
+            height: 200px;
+            display: flex;
+            font-size: 40px;
+            justify-content: center;
+            align-items: center;
+            background: rgb(110, 236, 158);
+        }
+        .set
+        {
+            width: 100%;
+            height: 100px;
+            display: flex;
+            font-size: 20px;
+            justify-content: center;
+            align-items: center;
+            color: brown;
+        }
+        .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        height: 100px;
+        }
+        .button {
+        background-color: #4ca8af;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        margin: 14px 2px;
+        }
+        .bodyC{
+
+            display: flex;
+            font-size: 20px;
+            justify-content: center;
+            align-items: center;
+        }
+        .container { 
+            height: 200px;
+            position: relative;
+            border: 3px solid green; 
+            }
+            .center2{
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+
+
+ </style>
+<title>4Chan</title>
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+</head>
+<body>
+    
+    <div class="myHeading">4Chan Analysis</div>
+    <p class="bodyC">4Chan is an online platform where anyone can share images and post their comments. 
+        For 4Chan, users need not register to post their content and thereby featuring anonymity and is widely used for memes, slangs. 
+        Due to the huge number of users posting their opinion and free comments on a topic, 4Chan is a platform where analysis on election can be done with the extensive amount of data.</p> 
+      <p>  We have done analysis of the data collected from 4Chan posts to discover which party has more positive feedback among the voters and here we will be visualizing these data. 
+        We found that democrats had a higher positive response but why Republicans won despite this output?
+    
+    </p>
+    <div class = "set" style="font-size: 20px;"> Let's check the election analysis according to 4Chan posts!!!</div>
+    <img src="{{url_for('static', filename='ele.jpg')}}" class="center"/>
+
+        <div style="font-size: 15px; color: blue; padding: 20px; margin-top: 10px;" class="center2"> Click below to select the party</div>
+        <div class="center2">
+        <button type="button" class="button" onclick="window.location.href = 'response'">Democrats</button>
+        <button type="button" class="button" onclick="window.location.href = 'republic'">Republics</button>
+        <button type="button" class="button" onclick="window.location.href = 'results'">Results</button>
+    </div>
+
+</body>
+</html>
+
+<!-- http://127.0.0.1:5000/ -->
