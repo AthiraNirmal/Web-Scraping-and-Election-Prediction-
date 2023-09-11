@@ -8,5 +8,9 @@ To improve the speed of the search feature, the project implemented Redis cachin
 
 The technologies used in the project included MongoDB for storing the data, Python for data processing, Flask for the web framework, HTTP requests for data collection, HTML for the user interface, Docker for containerization, and Redis for caching. Overall, this project demonstrated the ability to use modern technologies to collect, analyze, and visualize large amounts of data from social media platforms.
 
-#*** System Architecture ****
+# *** System Architecture ****
+
+<img width="1000" alt="Screen Shot 2023-09-11 at 6 14 53 PM" src="https://github.com/AthiraNirmal/Web-Scraping-and-Election-Prediction-/assets/63495996/044ee8e8-27e4-4bcd-97bf-0e6af3dfb814">
+
+
 
