@@ -7,3 +7,6 @@ Using the insights gained from the sentiment analysis, the project predicted the
 To improve the speed of the search feature, the project implemented Redis caching. This caching technology allowed frequently searched posts to be stored in memory, reducing the time it took to retrieve the data from the database. This resulted in a 2x increase in the speed of the search feature.
 
 The technologies used in the project included MongoDB for storing the data, Python for data processing, Flask for the web framework, HTTP requests for data collection, HTML for the user interface, Docker for containerization, and Redis for caching. Overall, this project demonstrated the ability to use modern technologies to collect, analyze, and visualize large amounts of data from social media platforms.
+
+#*** System Architecture ****
+
