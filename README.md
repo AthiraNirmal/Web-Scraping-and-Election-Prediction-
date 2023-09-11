@@ -15,7 +15,13 @@ The technologies used in the project included MongoDB for storing the data, Pyth
 # Election Results graph on Web UI
 <img width="698" alt="Screen Shot 2023-09-11 at 6 15 18 PM" src="https://github.com/AthiraNirmal/Web-Scraping-and-Election-Prediction-/assets/63495996/f7dc255a-d741-47d0-a387-791d4ac67449">
 
-------------------------------------------------------------------------------------------------------------------------------------
+# Outcome after Sentimental Analysis 
+-------------------------------------------------------------------------------------------------------
 <img width="804" alt="Screen Shot 2023-09-11 at 6 25 50 PM" src="https://github.com/AthiraNirmal/Web-Scraping-and-Election-Prediction-/assets/63495996/dcecfc59-d7b3-401f-a0c5-03a47440c0d6">
+
+<img width="494" alt="Screen Shot 2022-11-28 at 11 55 36 AM" src="https://github.com/AthiraNirmal/Web-Scraping-and-Election-Prediction-/assets/63495996/d0550df2-0ce5-420b-bd5f-e23e77581d8e">
+
+
+
 
 
